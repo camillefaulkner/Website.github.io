@@ -1,0 +1,97 @@
+
+body {
+    background-image: url('images/grn.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcomeleft {
+    display: flex;
+    align-self: center;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.about {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+}
+
+.aboutleft, .aboutright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutright {
+    display: flex;
+    align-self: center;
+}
+
+h2, blockquote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img {
+    border: 10px solid #6f732f;
+    border-radius: 40px;
+} 
+
+h1, h2 {
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+    color: #b49773;
+}
+
+blockquote {
+    font-size: 20px;
+    color: #b49773;
+}
+
+.card, form {
+    background-color: #b38a58;
+    border: 1px solid b38a58;
+    border-radius: 20px;
+    color: #0d1f22;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.cardcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav, .footer {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    background-color: #6f732f;
+    padding: 10px;
+    color: #b49773;
+}
+
+button:hover {
+        background-color: #3c5233;
+}
+
+textarea {
+    height: 200px;
+}
+
+li {
+    margin: 15px;
+    color: #b49773;
+}
