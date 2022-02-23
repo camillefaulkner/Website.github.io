@@ -59,7 +59,7 @@ blockquote {
 
 .card, form {
     background-color: #b38a58;
-    border: 1px solid b38a58;
+    border: 1px solid #b38a58;
     border-radius: 20px;
     color: #0d1f22;
     padding: 20px;
@@ -68,9 +68,18 @@ blockquote {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
+.card {
+    display: flex;
+    align-items: center;
+}
+
 .cardcontainer {
     display: flex;
     justify-content: space-around;
+}
+
+h4 {
+    color: #0d1f22
 }
 
 .nav, .footer {
@@ -88,10 +97,83 @@ button:hover {
 }
 
 textarea {
-    height: 200px;
+    height: 150px;
 }
 
 li {
     margin: 15px;
     color: #b49773;
+}
+
+h3 {
+    color:#b49773;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.leftlist, .rightlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.leftlist {
+    background-color: #6f732f;
+    border: 1px solid #6f732f;
+    border-radius: 20px;
+    color: #0d1f22;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.leftlist li {
+    color: #0d1f22;
+    font-weight: 600;
+}
+
+.leftlist h3 {
+    color: #0d1f22;
+}
+
+
+.musicimages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.music1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.music2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.musicimages img {
+    margin: 10px;
+}
+
+label {
+    color: #0d1f22;
+}
+
+form {
+    width: 700px;
+}
+
+.threepics, .problemstatement {
+    display: flex;
+    flex-direction: row;
+} 
+
+.pics {
+    display: flex;
+    justify-content: center;
 }
